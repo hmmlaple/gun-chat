@@ -8,18 +8,18 @@
 </script>
 
 <header>
-<h1>🔫💬</h1>
+<h1>sussy chat</h1>
   {#if $username}
     <div class="user-bio">
       
-      <span>Hello <strong>{$username}</strong></span>
+      <span>You are logged in as: <strong>{$username}</strong></span>
       <img src={`https://avatars.dicebear.com/api/initials/${$username}.svg`} alt="avatar" /> 
     </div>
 
-    <button class="signout-button" on:click={signout}>Sign Out</button>
+    <button class="signout-button" on:click={signout}>Log Out</button>
 
     {:else}
 
-      <h3>Gun.js Chat</h3>
+      <h3>sussy chat</h3>
   {/if}
 </header>
